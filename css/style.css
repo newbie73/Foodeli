@@ -4,7 +4,22 @@ html,body{
 }
 
 header{
+    display: flex;
     width: 100%;
-    height: 56px;
+    height: 36px;
+    padding: 20px;
     background-color: brown;
+}
+
+.company_logo{
+    width: 32px;
+    height: 36px;
+}
+
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-top: 8px;
 }
