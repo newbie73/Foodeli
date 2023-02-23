@@ -1,7 +1,8 @@
-html,body{
+body{
     padding: 0;
     margin: 0;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -9,7 +10,7 @@ header{
     width: 100%;
     height: 36px;
     padding: 20px;
-    padding-left: 250px;
+    padding-left: 20%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -21,8 +22,9 @@ header{
 h1{
     font-weight: 500;
     font-size: 18px;
+    text-transform: capitalize;
     margin-left: 12px;
-    margin-top: 8px;
+    margin-top: 5px;
     color: #333333;
     margin-right: 4%;
 }
@@ -67,14 +69,15 @@ h1{
 }
 .menu_login_button{
     background-color: #E73050;
-    width: 90px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
+    padding: 2px 0px 0px 10px;
     border-radius: 20px;
     border-style: none;
 }
 .menu_login_button img{
     float: left;
-    margin-left: 12px;
+    width: 12px;
     margin-right: -12px;
 }
 .menu_login_button span {
@@ -83,4 +86,174 @@ h1{
 }
 .menu_login_button:hover{
     cursor: pointer;
+}
+
+.content_start{
+    width: 100%;
+    height: 500px;
+    padding: 70px 0px 0px 20%;
+}
+
+.start_content_more_button{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(255, 222, 222);
+    border-style: none;
+    border-radius: 12px;
+}
+
+.start_content_more_button:hover{
+    background-color: rgb(255, 199, 199);
+    cursor: pointer;
+}
+.start_content_more_button span{
+    color: #F0465F;
+    font-size: 12px;
+}
+.start_content_more_button img{
+    width: 14px;
+    height: 14px;
+    margin-bottom: -2px;
+    margin-left: 5px;
+}
+
+.start_block{
+    display: flex;
+    width: 100%;
+}
+.start_block_text{
+    width: 450px;
+}
+
+.start_block_h2{
+    text-transform:capitalize;
+    line-height: 63px;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.lowertext{
+    text-transform: lowercase;
+}
+.chng_font{
+    font-family: 'Lobster', cursive;
+    font-size: 65px;
+    color: #EB0029;
+}
+
+.under_start_h2_content_block{
+    width: 380px;
+}
+.under_start_h2_text{
+    margin-top: -30px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.under_content_block_buttons{
+    width: 380px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.block_button{
+    float: left;
+    width: 140px;
+    height: 100%;
+    padding: 4px;  
+    border-radius: 25px;
+    border-style: none;
+}
+
+.block_button:hover{
+    cursor: pointer;
+}
+
+.block_button p{
+    color: white;
+    text-transform: capitalize;
+}
+
+.one_btn{
+    background-color: #EB0029;
+}
+
+.two_btn {
+    margin-left: 20px;
+    display: flex;
+    background-color: transparent;
+}
+
+.two_btn img{
+    width: 30px;
+    margin-right: 8px;
+}
+.two_btn p {
+    color: black;
+}
+.start_main_image{
+    margin-top: -80px;
+    margin-left: -30px;
+}
+.helpers{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -50px;
+    width: 700px;
+    height: 500px;
+    background-image: url("../images/content_start_images/img_helpers.svg");
+    background-size: cover;
+}
+
+.start_phone_btn{
+    position: absolute;
+    width: 248px;
+    height: 57px;
+    margin-left: 400px;
+    margin-top: 230px;
+    background-image: url("../images/content_start_images/Richard_phone_number.svg");
+    background-size:contain;
+}
+.start_phone_btn:hover{
+    cursor: pointer;
+}
+
+.start_add_banner{
+    position: absolute;
+    width: 200px;
+    height: 105px;
+    margin-left: 760px;
+    margin-top: 270px;
+    background-image: url("../images/content_start_images/reclam_banner.svg");
+}
+.start_add_banner:hover{
+    cursor: pointer;
+}
+
+.start_instance{
+    position: absolute;
+    display: flex;
+    margin-top: 50px;
+}
+.customers{
+    width: 70px;
+    height: 30px;
+}
+.start_star{
+    margin-top: 15px;
+    margin-left: 13px;
+    width: 10px;
+    height: 10px;
+}
+.start_instance_title{
+    text-transform: capitalize;
+    margin-top: -4px;
+    margin-left: -105px;
+    font-size: 11px;
+}
+.start_instance_rating{
+    font-size: 11px;
+}
+.chng_color_to_grey{
+    color: #666666;
 }
